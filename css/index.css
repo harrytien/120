@@ -7,7 +7,7 @@ img{
 	height: auto;
 	display: block;
 }
-
+a{ color: #191919; }
 .justify {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
@@ -70,6 +70,11 @@ img{
 
 .icon-list{
 	background: #fff;
+}
+
+.icon-list p{
+	font-size: 12px;
+	padding: 5px 0 0;
 }
 
 .flex-equal, .flex-center, .justify {
@@ -158,6 +163,7 @@ img{
 
 .pro-list{
 	background: #fff;
+	margin: 10px 0 15px;
 }
 
 .pro-list li{

@@ -35,7 +35,10 @@ body{
 	height: 100%;
 	position: relative;
 }
-
+.item > div > p{
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
 .item.active .y{
 	width: 24px;
 	height: 24px;
@@ -72,10 +75,11 @@ body{
 	width: 80%;
 	height: 40px;
 	color: #8d8d8d;
+	font-size: 1.4rem;
 	border: 2px dashed #8d8d8d;
 	border-radius: 4px;
 	text-align: center;
-	line-height: 34px;
+	line-height: 38px;
 	margin: 0 auto 20px;
 	display: block;
 }
@@ -85,6 +89,7 @@ body{
 	margin: 0 4px;
 	display: inline-block;
 	text-indent: -9999px;
+	vertical-align: -1px;
 	overflow: hidden;
 	position: relative;
 }
