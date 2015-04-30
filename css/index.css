@@ -116,7 +116,7 @@ img{
 	color: #999;
 	font-size: 12px;
 	margin-left: 35px;
-	line-height: 25px;
+	line-height: 26px;
 }
 
 .guide{
@@ -154,6 +154,7 @@ img{
 	line-height: 30px;
 	background: #fff;
 }
+.product .more > a{ color: #191919; }
 
 .pro-list{
 	background: #fff;
@@ -169,7 +170,7 @@ img{
 .pro-list .flex-equal .ico > img{border-radius: 0;}
 .pro-list .flex-equal li > p {
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
 	padding: 0;
 }
 
@@ -179,7 +180,7 @@ img{
 
 .pro-list .price{
 	color: #129044;
-	font-size: 10px;
+	font-size: 14px;
 	padding: 0;
 }
 .pro-list .cart{
