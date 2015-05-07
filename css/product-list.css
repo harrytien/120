@@ -1,0 +1,179 @@
+/*确认订单*/
+
+/*common*/
+.grid {
+	/*margin-top:1px;*/
+	padding: 15px 4%;
+	background: #fff;
+	overflow: hidden;
+}
+
+.flex-equal li {
+	padding: 2%;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	text-align: center;
+}
+
+a, a:link, a:active {
+	color:#333;
+}
+
+
+/*page*/
+.filter-bar {
+	border-bottom: 1px solid #f2f2f2;
+	padding: 15px 0;
+	background: #fff;
+	font-size: 1.6rem;
+	position: relative;
+	z-index: 30;
+}
+
+.filter-bar li{
+	width: 32%;
+	display: block;
+	border-right: 1px solid #f2f2f2;
+}
+.filter-bar li a{
+	display: block;
+}
+.filter-bar li:last-child {
+	border:none;
+}
+
+.filter-bar .active a{
+	color: #1ACB60;
+
+}
+
+.plist {
+	position: relative;
+	z-index: 10;
+}
+
+.plist li{
+	clear:both;
+	overflow: hidden;
+	padding: 10px 0;
+	border-bottom: 1px solid #f2f2f2;
+	position: relative;
+}
+
+.plist .img-cont{
+	float:left;
+	width:32%;
+	height:auto;
+}
+
+.plist .img-cont img{
+	height: auto;
+	widows: 100%;
+}
+
+.plist .info {
+	margin: 0px 40px 0 34%;
+	font-size:1.4rem;
+	line-height: 1.8rem;
+	
+}
+.plist .info p {
+	padding: 0 0 3px 0;
+}
+
+
+.plist .info .price {
+	color: #129044;
+	font-size: 1.8rem;
+}
+
+.plist .info del{
+	color: #999;
+	padding-left:4px;
+	font-size: 1.2rem;
+}
+
+.plist .icon-loc-rb {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	color: #999;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+
+}
+
+.plist .icon-buy {
+	width:18px;
+	height: 18px;
+	background: #ddd;
+	position: absolute;
+	right:0;
+	top:10px;
+}
+
+.plist .icons {
+	height: 18px;
+}
+.plist .icons img{
+	width:18px;
+	height: 18px;
+	display: inline-block;
+	/*height: auto;*/
+	background: #ddd;
+	margin-right: 4px;
+}
+
+.dropdown-wrap{
+	position:absolute;
+	z-index: 20;
+	width: 100%;
+}
+
+.dropdown-container {
+	display: none;
+	background: #fff;
+	padding: 10px 8%;
+	box-sizing: border-box;
+}
+
+.dropdown-container li{
+	font-size: 1.6rem;
+	padding:12px 0;
+	border-bottom: 1px solid #f1f1f1;
+	position: relative;
+
+}
+
+.dropdown-container li a{
+	display: block;
+}
+
+.dropdown-container .active a, .dropdown-container li a:active {
+	color : #1ACB60;
+}
+.dropdown-container .active:after {
+	position: absolute;
+	content:"√";
+	right:4px;
+	top:50%;
+	margin-top: -.6rem;
+	color: #1ACB60;
+}
+.dropdown-container li:last-child{
+	border-bottom: none;
+}
+
+.dropdown-mark {
+	position: absolute;
+	z-index: 18;
+	background: #000;
+	opacity : .4;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	display: none;
+}
