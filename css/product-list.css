@@ -167,7 +167,7 @@ a, a:link, a:active {
 }
 
 .dropdown-mark {
-	position: absolute;
+	position: fixed;
 	z-index: 18;
 	background: #000;
 	opacity : .4;

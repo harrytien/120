@@ -1,0 +1,71 @@
+/*登录，注册，忘记密码*/
+
+/*common*/
+.grid-w {
+	/*margin-top:1px;*/
+	/*padding: 15px 4%;*/
+	/*background: #fff;*/
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.pd{
+	padding: 10px 4%;
+}
+
+.input-container {
+	font-size: 1.6rem;
+	padding: 10px 4%;
+	margin-top: 1px;
+	background: #fff;
+	position: relative;
+}
+
+.input-container i{
+	color:#f90;
+	font-style: none;
+}
+
+.input-container input{
+	margin: 10px 0;
+	/*width:180px;*/
+}
+.input-container input[maxlength]{
+	width:100px;
+}
+
+.input-container span{
+	margin: 10px 0;
+	float:left;
+	width:80px;
+}
+
+.input-container .get-code {
+	/*position: absolute;*/
+	font-size: 1.4rem;
+	white-space:nowrap;
+}
+
+.forget {
+	text-align:right;
+	font-size: 1.4rem;
+}
+
+a {
+	color: #129044;
+	cursor: pointer;
+}
+
+.n-text {
+	font-size: 1.4rem;
+	color: #333;
+	line-height: 1.6rem;
+}
+.login .button {
+	width:92%;
+	line-height: 2rem;
+	display: block;
+	/*margin: 0 4%;*/
+	font-size: 1.6rem;
+}
+
