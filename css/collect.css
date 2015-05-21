@@ -1,0 +1,147 @@
+/*确认订单*/
+.grid {
+	margin-top:1px;
+	overflow: hidden;
+}
+
+.plist h1{
+	background: #fff;
+	font-size: 1.4rem;
+	padding: 10px 0;
+	border-bottom:1px solid #f2f2f2;
+}
+
+
+.plist ul li{
+	padding: 10px 4%;
+	margin-top:10px;
+	clear:both;
+	overflow: hidden;
+	border-bottom: 1px solid #f2f2f2;
+	background: #fff;
+}
+
+.plist .img-cont {
+	float: left;
+	width: 28%;
+	height: auto;
+	min-height: 50px;
+	background: #fafafa;
+}
+
+.plist .img-cont img {
+	width: 100%;
+	height: auto;
+}
+
+.plist .info{
+	margin: 0 0 0 32%;
+	font-size: 1.6rem;
+	line-height: 1.4;
+}
+
+.plist .info .name {
+	font-size: 1.4rem;
+	color: #666;
+}
+.plist .info .price {
+	color: #129044;
+	font-size: 1.4rem;
+}
+.plist .info .date {
+	color: #7d7d7d;
+	font-size: 1.2rem;
+}
+.plist .info .count {
+	font-size: 1.4rem;
+	color: #666;
+}
+
+.memo {
+	padding: 15px 4%;
+}
+
+.memo textarea {
+	background: #fafafa;
+	width: 100%;
+	height: 60px;
+	padding: 8px;
+	box-sizing:border-box;
+}
+
+.memo .price{
+	text-align : right;
+	margin: 4px 0;
+}
+
+.memo .price span{
+	font-size: 1.8rem;
+	color: #129044;
+}
+
+.address {
+	line-height: 1.6rem;
+	color:#999;
+	font-size: 1.2rem;
+}
+
+
+
+.address .button-gray{
+	float:right;
+}
+
+.total-cont {
+	line-height: 1.6rem;
+	margin-top:1px;
+	padding: 15px 4%;
+	background: #fff;
+	/*color:#999;*/
+	font-size: 1.4rem;
+	overflow: hidden;
+}
+.total-cont .price{
+	color: #129044;
+}
+
+.func{
+	border-top: 1px solid #e5e5e5;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+.func > a{
+	width: 50px;
+	height: 21px;
+	background: #bfbfbf;
+	border-radius: 4px;
+	line-height: 21px;
+	text-align: center;
+	color: #fff;
+}
+.func .status{
+	color: #47a069;
+	line-height: 21px;
+	font-size: 1.4rem;
+}
+
+.func .status > em{
+	width: 9px;
+	height: 9px;
+	display: inline-block;
+	background: url(../images/collect/y.png) no-repeat;
+	background-size: 100%;
+	margin-right: 4px;
+}
+
+.func .status.empty > em{
+	background: url(../images/collect/n.png) no-repeat;
+	background-size: 100%;
+}
+
+.func .status.empty{
+	color: #aeaeae;
+}
+
+.button{
+	margin-top: 32px;
+}
