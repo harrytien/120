@@ -30,6 +30,14 @@ body{
 	background: #fff;
 }
 
+.address-list > h2{
+	height: 30px;
+	line-height: 30px;
+	color: #191919;
+	font-size: 1.8rem;
+	padding: 0 5%;
+}
+
 .item > div{
 	width: 12%;
 	height: 100%;
@@ -116,4 +124,8 @@ body{
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+.button{
+	margin-bottom: 15px;
 }
