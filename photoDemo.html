@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>拍照 demo</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/product-list.css" />
+</head>
+<style>
+	#photo-container {}
+	#photo-container .list li {
+		float: left;
+		background: #ddd;
+		width: 40px;
+		height: 40px;
+		margin-right: 4px;
+	}
+	#photo-container .list img{
+		width: 100%;
+		height: 100%;
+	}
+	#photo-container .btn {
+		width: 40px;
+		height: 40px;
+		float: left;
+		background: #ddd;
+		overflow: hidden;
+		font-size: 3rem;
+		line-height: 40px;
+		text-align: center;
+		text-indent: 0;
+		position: relative;
+	}
+	#photo-container .btn:before {
+		content: "";
+
+	}
+	#photo-container .btn input {
+		width: 40px;
+		height: 40px;
+		display: block;
+		opacity: 0;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	#photo-container .btn .hide {
+		top : -999px;
+	}
+</style>
+<body>
+	<div id="photo-container">
+
+	</div>
+</body>
+<script src="./js/jquery-2.1.3.min.js"></script>
+<script src="http://127.0.0.1:35729/livereload.js?snipver=1"></script>
+<script>
+	!(function () {
+		function makePhoto (container, options) {
+			if(!container) {return;}
+			var opt = this.opt = options || {};
+			opt.max = opt.max || 5;
+
+			container.html('<ul class="list"></ul><div class="btn"><div>+</div></div>')
+			var btnContainer = container.querySelector('div.btn');
+			var listContainer = container.querySelector('ul.list');
+			var pics = [];
+
+			addInput();
+
+			function addInput () {
+				var f = document.createElement('input');
+				f.type = 'file';
+				f.addEventListener('change', changeHandler);
+				btnContainer.appendChild(f);
+			}
+
+			function changeHandler = function (e) {
+				pics.push(new ImgFile({input:this}));
+				this.className = 'hide';
+				addInput();
+			}
+
+			function ImgFile (options) {
+				var self = this;
+				this.opt = options;
+				var fr = new FileReader();
+				fr.readAsDataURL(this.opt.input.files[0]);
+				fr.onload = function () {
+					self.addPhoto(this.result);
+				}
+			}
+
+			ImgFile.prototype.addPhoto = function (src) {
+				var li = this.dom = document.createElement('li');
+				li.innerHTML = '<img src = "' + src + '" />';
+				listContainer.appendChild(li);
+			}
+
+			ImgFile.prototype.remove = function () {
+				this.dom.remove();
+				this.opt.input && this.opt.input.remove();
+			}
+		}
+
+		makePhoto(document.querySelector('#photo-container'));
+	})();	
+</script>
+</html>

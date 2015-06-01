@@ -1,0 +1,61 @@
+/*确认订单*/
+
+.grid {
+	margin-top:1px;
+	padding: 15px 4%;
+	background: #fff;
+	overflow: hidden;
+	border-top: 10px solid #e5e5e5;
+	font-size: 1.6rem;
+}
+
+.total-price {
+	
+}
+
+.total-price .price {
+	float: right;
+	color: #129044;
+	font-size: 3.0rem;
+	padding: 20px 0 0px;
+}
+
+
+.pay-type {
+	border-top: 10px solid #e5e5e5;
+}
+.pay-type ul {
+	margin: 20px 0;
+}
+
+.pay-type li {
+	/*font-size: 1.4rem;*/
+	float:left;
+	width:50%;
+	padding:10px 0;
+}
+
+.pay-type li:last-child {
+	width:auto;
+}
+
+
+.pay-type input {
+	margin-right: 10px;
+	width : 16px;
+}
+
+.password input{
+	margin:20px auto 0;
+	padding: 0 10px;
+	/*display: block;*/
+	width:100px;
+	border: 1px solid #aaa;
+	height:32px;
+	line-height: 32px;
+	border-radius: 4px;
+}
+
+.confirem {
+	padding-bottom:40px;
+}

@@ -48,6 +48,7 @@ img{
 	background: #129044;
 	margin: 0 auto;
 	display: block;
+	-webkit-appearance: none;
 }
 
 .button-gray{
@@ -86,4 +87,55 @@ img{
 .footer .footer-copyright > p > a{
 	color: #191919;
 	margin: 0 3%;
+}
+
+/*拍照*/
+.photo-container {}
+.photo-container .list li {
+	float: left;
+	background: #ddd;
+	width: 40px;
+	height: 40px;
+	margin-right: 4px;
+}
+.photo-container .list img{
+	width: 100%;
+	height: 100%;
+}
+.photo-container .btn {
+	width: 40px;
+	height: 40px;
+	float: left;
+	background: #ddd;
+	overflow: hidden;
+	font-size: 3rem;
+	line-height: 40px;
+	text-align: center;
+	text-indent: 0;
+	position: relative;
+	color: #666;
+}
+.photo-container .btn:before {
+	content: "";
+}
+.photo-container .btn input {
+	width: 40px;
+	height: 40px;
+	display: block;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.photo-container .btn .hide {
+	top : -999px;
+}
+
+/*按钮*/
+.icon-cart {
+  width: 26px;
+  height: 20px;
+  background: url(../images/cart.png) no-repeat;
+  background-size: 100%;
+  display: inline-block;
 }

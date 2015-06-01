@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>慢性病认证</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/confirem-medicine.css" />
+</head>
+<body>
+
+<section class="grid">
+	<div class="prompt">提示：申请慢病自合，通过后，在6个月内，每次面处方进行30天开药，省心，放心！</div>
+</section>
+
+<section class="form-list grid">
+	<div class="title">病种选择*</div>
+	<div class="content">
+		<label for="type-1"><input type="checkbox" name="" id="type-1"> 高血压</label>
+		<label for="type-2"><input type="checkbox" name="" id="type-2"> 冠心病</label>
+	</div>
+	<div class="explain">（可多选）</div>
+</section>
+
+<section class="form-list grid">
+	<div class="title">医院诊断证明*</div>
+	<div class="content photo-container" id="photo-area-1">1</div>
+	<div class="explain">最多5张</div>
+</section>
+
+<section class="form-list grid">
+	<div class="title">患者自述</div>
+	<div class="content">
+		<textarea name="" id="" max-length="200" placeholder="补充说明(非必填)"></textarea>
+	</div>
+</section>
+
+<section class="form-list grid">
+	<div class="title">有效处方*</div>
+	<div class="content photo-container" id="photo-area-2">1</div>
+	<div class="explain">最多5张</div>
+</section>
+
+<section class="confirm-area grid">
+	<input type="submit" class="button pd" value="立即认证" />
+	<a class="button pd" href="javascript:;">稍后认证</a>
+</section>
+
+
+
+ 
+
+<section class="more grid"> 
+	<i class="help">?</i><a href="#">不知道如何填写？</a>
+</section>
+
+<!-- footer start -->
+<!-- <section class="footer">
+	<p class="footer-line">全国免费热线：400-851-0573</p>
+	<div class="footer-copyright">
+		<p><a href="#">店铺主页</a><a href="#">会员中心</a><a href="#">关注我们</a></p>
+		<p>嘉兴百姓大药房，我们将竭诚为您服务！</p>
+	</div>
+</section> -->
+<!-- footer end -->
+
+</body>
+<!-- <script src="./js/jquery-2.1.3.min.js"></script> -->
+<script src="./js/tools.js"></script>
+<script>
+	new takePhoto(document.querySelector('#photo-area-1'));
+	new takePhoto(document.querySelector('#photo-area-2'));
+</script>
+<script src="http://127.0.0.1:35729/livereload.js?snipver=1"></script>
+</html>

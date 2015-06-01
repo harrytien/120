@@ -1,0 +1,100 @@
+/*登录，注册，忘记密码*/
+
+/*common*/
+.grid-w {
+	/*margin-top:1px;*/
+	/*padding: 15px 4%;*/
+	/*background: #fff;*/
+	overflow: hidden;
+	clear: both;
+	/*margin-top: 20px;*/
+}
+
+
+.prompt{
+	padding: 10px;
+	/*background: #ddd;*/
+	line-height: 1.4rem
+}
+
+.form-list {
+	border-top:1px solid #ddd;
+	padding: 20px 4%;
+	clear: both;
+	overflow: hidden;
+	background: #fff;
+}
+
+.form-list .title {
+	float: left;
+	text-align: right;
+	width: 80px;
+}
+
+.form-list .content {
+	margin-left: 90px;
+	overflow: hidden;
+}
+
+.form-list .explain {
+	clear: both;
+	margin: 10px 0 0 90px;
+	color: #aaa;
+}
+
+.form-list label{
+	margin-right: 10px;
+}
+
+.form-list textarea {
+	background: none;
+	width: 100%;
+	min-height: 4.8rem;
+}
+
+.confirm-area {
+	width: 300px;
+	margin: 20px auto;
+}
+
+.confirm-area .button{
+	width : 140px;
+	float:left;
+}
+
+.confirm-area .button:last-child{
+	float:right;
+	background: none;
+	color: #666;
+}
+
+section.more{
+	clear:both;
+	overflow: hidden;
+	width: 300px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+section.more a{
+	color: #333;
+}
+
+section.more i {
+	background: none;
+	border: 1px solid #129044;
+	width: 1.4rem;
+	height: 1.4rem;
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 1.6rem;
+	font-style: normal;
+	border-radius: .9rem;
+	color: #129044;
+	font-size: 1.2rem;
+	position: relative;
+	top: -3px;
+	margin-right: 5px;
+}
+

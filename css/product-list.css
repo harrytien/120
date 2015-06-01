@@ -106,9 +106,7 @@ a, a:link, a:active {
 }
 
 .plist .icon-buy {
-	width:18px;
-	height: 18px;
-	background: #ddd;
+	
 	position: absolute;
 	right:0;
 	top:10px;
@@ -124,6 +122,31 @@ a, a:link, a:active {
 	/*height: auto;*/
 	background: #ddd;
 	margin-right: 4px;
+}
+
+.plist .icons .c-ff3301{
+	background: #ff3301
+}
+
+.plist .icons .c-0066cc{
+	background: #0066cc
+}
+
+.plist .icons .c-008000{
+	background: #008000
+}
+
+.plist .icons .c-bfdffd{
+	background: #bfdffd
+}
+
+.plist .icons > strong{
+	/*font: normal 1.4rem/1.5 \5B8B\4F53;*/
+	color: #fff;
+	font-size: 1.6rem;
+	margin-right: 5px;
+	padding: 0 2px;
+	display: inline-block;
 }
 
 .dropdown-wrap{
