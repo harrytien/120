@@ -1,0 +1,113 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a{color: #191919;}
+body{
+	color: #191919;
+	background: #e5e5e5;
+}
+
+.flex-equal,.flex-center, .justify {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.justify {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.address-list > a{
+	height: 70px;
+	padding: 10px 0;
+	margin: 10px 0;
+	background: #fff;
+}
+
+.address-list > h2{
+	height: 30px;
+	line-height: 30px;
+	color: #191919;
+	font-size: 1.8rem;
+	padding: 0 5%;
+}
+
+.address-list .info {
+	color: #aaa;
+	font-size: 1.2rem
+}
+
+.address-list .new-card {
+	font-size: 1.8rem;
+	padding: 24px 0;
+	color: #129044;
+}
+
+.address-list .add-point {
+	color: #999;
+	font-size: 1.2rem;
+}
+
+.item > div{
+	width: 12%;
+	height: 100%;
+	position: relative;
+}
+
+.item > div > p{
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+.item > div .name{
+	padding-right: 5px;
+}
+
+.item.active .y{
+	width: 24px;
+	height: 24px;
+	background: url(../images/y.png);
+	background-size:100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin:-12px 0 0 -12px;
+}
+.item > div:nth-child(1){
+	width: 1%;
+	overflow: hidden;
+}
+.item > div:nth-child(2){
+	width: 76%;
+	overflow: hidden;
+}
+.item .adds{
+	display: block;
+}
+.item .u{
+	width: 13px;
+	height: 23px;
+	background: url(../images/arw.png);
+	background-size: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -12px 0 0 -6px;
+}
+
+.add-address{
+	padding: 10px 0;
+}
+
+.grid-info {
+	width: 80%;
+	margin: 20px auto
+}
+
+
