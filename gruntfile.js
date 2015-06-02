@@ -47,7 +47,7 @@ module.exports = function(grunt) {
                 },
                 // '**' 表示包含所有的子目录
                 // '*' 表示包含所有的文件
-                files: ['*.html', 'css/*', 'js/*', 'images/**/*']
+                files: ['*.html', 'css/*.css', 'js/*.js', 'images/**/*']
             }
         }
     }); // grunt.initConfig配置完毕
