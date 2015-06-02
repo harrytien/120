@@ -1,0 +1,111 @@
+/*确认订单*/
+header {
+	height: 40px;
+	
+	padding: 0 4%;
+}
+
+header h1 {
+	line-height: 40px;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+header a {
+	float: right;
+	display: block;
+	margin: 16px 0 0 10px;
+	color: #129044;
+}
+
+.grid {
+	margin-top:1px;
+	padding: 15px 4%;
+	background: #fff;
+	overflow: hidden;
+}
+
+.plist{
+	margin: 0px 0;
+	padding: 0 4%;
+	border-top: 10px solid #e5e5e5;
+	border-bottom: 10px solid #e5e5e5;
+}
+.plist h1{
+	background: #fff;
+	font-size: 1.4rem;
+	padding: 10px 0;
+	border-bottom:1px solid #f2f2f2;
+}
+
+.plist ul{
+	background: #fff;
+}
+
+.plist ul li{
+	padding: 10px 0;
+	clear:both;
+	overflow: hidden;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.plist .img-cont {
+	float: left;
+	width: 28%;
+	height: auto;
+	min-height: 50px;
+	background: #fafafa;
+}
+
+.plist .img-cont img {
+	width: 100%;
+	height: auto;
+}
+
+.plist .info{
+	margin: 4px 0 0 10px;
+	width: 40%;
+	float: left;
+	font-size: 1.6rem;
+	line-height: 1.8rem
+}
+
+.plist .count {
+	float: right;
+	margin: 4px 0 0;
+	line-height: 1.8rem;
+	font-size: 1.6rem;
+	text-align: right;
+}
+
+.plist .price {
+	color: #129044
+}
+
+.plist input {
+	width: 40px;
+	text-align: right;
+}
+.plist .count a{
+	font-size: 1.4rem;
+}
+
+.plist .info .name {
+	font-size: 1.4rem;
+	color: #666;
+}
+.plist .info .count {
+	font-size: 1.4rem;
+	color: #666;
+}
+
+.plist .total{
+	text-align: right;
+	font-size: 1.4rem;
+}
+
+.plist .total .price {
+	font-size: 2.4rem;
+}
+
+
