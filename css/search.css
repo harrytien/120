@@ -1,0 +1,76 @@
+body{
+	background: #f2f2f2;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+a{ color: #191919; }
+
+	/*::-webkit-input-placeholder { font-size: 1.4rem; color:#999; }
+	::-moz-placeholder { font-size: 1.4rem; color:#999; }  firefox 19+ 
+	:-ms-input-placeholder { font-size: 1.4rem; color:#999; } /* ie 
+	input:-moz-placeholder { font-size: 1.4rem; color:#999; }*/*/
+
+.justify {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.search{
+	padding: 4% 2% 2%;
+	background: #fff;
+}
+
+.search .zoom{
+	width: 28px;
+	height: 28px;
+	margin:2px 5% 0;
+	border-radius: 5px;
+	background: url(../images/zoom.png) no-repeat;
+	background-size: 100%;
+	/*float: right;*/
+	display: block;
+}
+
+.search .input{
+	width: 82%;
+}
+
+.search .input > input{
+	width: 100%;
+	height: 33px;
+	box-sizing:border-box;
+    -moz-box-sizing:border-box;
+	padding-left: 2%;
+	border-radius: 5px;
+	border:1px solid #129044;
+}
+
+
+.result{
+	padding: 10px 2% 30px;
+	background: #fff;
+}
+
+.result li{
+	height: 35px;
+	line-height: 35px;
+	font-size: 1.4rem;
+	border-bottom: 1px solid #E4E4E4;
+}
+
+.result .button{
+	margin-top: 25px;
+}
+
+.result > p{
+	color: #999;
+	font-size:1.4rem;
+	padding: 2px 0 8px;
+	border-bottom: 1px solid rgba(108,108,108,1);
+}
