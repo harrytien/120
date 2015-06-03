@@ -43,7 +43,7 @@ header h1 {
 	color: #666;
 }
 
-.category a:active {
+.category a:active, .category a:focus {
 	background: #eee;
 }
 
