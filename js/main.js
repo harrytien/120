@@ -16,5 +16,5 @@ $touchSlide.touchSlider({
 		$circle.find('span').removeClass('active')
 			.eq(ret.current).addClass('active');
 		switchTxt(ret.current);
-	}
+	} 
 });*/
